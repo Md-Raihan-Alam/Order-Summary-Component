@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{background: url(images/pattern-background-desktop.svg) repeat-y 100%
+    center fixed;background-size:cover;}
+    @media screen and (max-width:400px){
+      body{background-image:url(images/pattern-background-mobile.svg);}
+      .card{
+        margin:20px;
+      }
+    }
+    .change{
+      cursor:pointer;
+      text-decoration:underline
+    }
+    .change:hover{
+      text-decoration: none !important;
+      color: hsla(245, 75%, 52%, 0.568) !important;
+    }
+    .btn:hover{
+      background-color:hsla(245, 75%, 52%, 0.568) !important;
+    }
+    .btn-or{
+      cursor:pointer;
+    }
+  </style>
+</head>
+<body style="height:100vh;" class="d-flex justify-content-center align-items-center">
+  <div class="card" style="width:25rem;">
+    <img src="images/illustration-hero.svg" alt="HERO" class="class-img-top">
+    <div class="card-body d-flex flex-column justify-content-center align-items-center">
+      <div class="card-title mt-4" style="font-weight:bolder;font-size:24px;">Order Summary</div>
+      <div class="card-text" style="text-align:center;width:80%;font-size:16px;color:hsl(224, 23%, 55%);">
+        You can now listen to millions of songs,audiobook and podcasts on any devices anywhere you like
+      </div>
+      <div class="d-flex justify-content-start align-items-center mt-4 mb-4" style="background-color: hsl(225, 100%, 98%);width:90%;height:auto;padding:20px;">
+        <div class="d-flex justify-content-between align-items-center" style="width:100%;">
+          <div class="d-flex flex-row justify-content-start align-items-start">
+            <img src="images/icon-music.svg" alt="Music" />
+            <div class="d-flex flex-column justify-content-start align-items-start" style="padding-left:10px;">
+              <div style="font-weight: bolder;">Annual Plan</div>
+              <div style="color:hsl(224, 23%, 55%);;">$59.99/year</div>
+            </div>
+          </div>
+          <div style="color:hsl(245, 75%, 52%);font-weight:700;"><span class="change">Change</span></div>
+        </div>
+      </div>
+      <form action="" style="width:90%;">
+        <div class="d-block btn" style="background-color:hsl(245, 75%, 52%);color:white;">
+          Proceed to payment
+        </div>
+        <div class="d-flex flex-column justify-content-center align-items-center mt-3 btn-or" style="color:hsl(224, 23%, 55%);">Cancel Order</div>
+      </form>
+    </div>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</html>
