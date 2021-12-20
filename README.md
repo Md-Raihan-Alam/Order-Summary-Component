@@ -12,7 +12,7 @@ Users will be able to:
 
 ### Links
 
-- Solution URL: https://md-raihan-alam.github.io/Order-Summary-Component/
+- Solution URL: https://www.frontendmentor.io/solutions/html5bootstrap-and-inline-css-lHIKLCceN
 - Live Site URL: https://md-raihan-alam.github.io/Order-Summary-Component/
 
 ## My process
